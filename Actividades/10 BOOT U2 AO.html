@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Form Bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center w-50 p-3 shadow-lg p-3 mb-2 bg-light text-dark rounded border border-danger">
+        <div class="col-12 mt-1">
+            <form>
+                <!--F1 Nombre y Apellido-->
+                <div class="form-row">
+
+                    <!--F1 C1-->
+                    <div class="col">
+                        <label for="validationTooltip01">Nombre de pila</label>
+                        <input type="text" class="form-control" id="validationTooltip01" value="">
+                    </div>
+
+                    <!--F1 C2-->
+                    <div class="col">
+                        <label for="validationTooltip02">Apellido</label>
+                        <input type="text" class="form-control" id="validationTooltip02" value="">
+                    </div>
+                </div>
+
+                <!--F2 Usuario-->
+                <div class="form-group mt-2">
+                    <label for="inputAddress">Nombre de usuario</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                </div>
+
+                <!--F3 Mail-->
+                <div class="form-group">
+                    <label for="inputEmail">Correo electrónico <span class="text-muted">(opcional)</span></label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
+                </div>
+
+                <!--F4 Dire-->
+                <div class="form-group">
+                    <label for="inputAddress">Habla a</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+
+                <!--F5 DireI-->
+                <div class="form-group">
+                    <label for="inputAddress2">Dirección 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento o suite">
+                </div>
+
+                <!--F6 DireII-->
+                <div class="form-row">
+
+                    <!--F6 DireII C1 País-->
+                    <div class="form-group col-md-5">
+                        <label for="inputCity">País</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option selected="">Escoger...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                    </div>
+
+                    <!--F6 DireII C2 Estado-->
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Estado</label>
+                        <select class="custom-select mr-sm-2" id="">
+                    <option selected="">Escoger...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                    </div>
+
+                    <!--F6 DireII C3 CP-->
+
+                    <div class="form-group col-md-3">
+                        <label for="inputZip">Código Postal</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+
+                <!--F7 Checks-->
+                <div class="form-group border-top border-bottom">
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" value="" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                    La dirección de envío es la misma que mi dirección de facturación
+                  </label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="">
+                        <label class="form-check-label" for="">
+                    Guarde esta información para la próxima vez
+                  </label>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <!-- JavaScript en Bootstrap -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous ">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous ">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+* {
+    font-size: medium !important;
+}
+
+.page-link {
+    color: gray;
+}
+
+.card-body {
+    padding: 1.5rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.card-text {
+    font-size: 14.5px!important;
+    text-align: justify;
+}
+
+.pagination-sm {
+    margin-bottom: 0rem !important;
+}
